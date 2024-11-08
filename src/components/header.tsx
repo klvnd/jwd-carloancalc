@@ -14,7 +14,7 @@ export default function Header() {
       <header className="bg-gray-800 text-white flex items-center p-4 shadow-md">
         <div className="container mx-auto flex items-center justify-between bg-gray-700 p-4 rounded-lg">
           <div className="flex items-center">
-            <img src="ASSETS/IMG/logo.png" alt="Logo" className="h-8 w-30 mr-4" />
+            <img src="/assets/img/logo.png" alt="Logo" className="h-8 w-30 mr-4" />
             <div className="text-center font-bold">
               <h1 className="text-xl">CarLoanCalc</h1>
             </div>
