@@ -1,9 +1,8 @@
-"use client"; // Marks this as a client component
+"use client";
 
 import React, { useState } from 'react';
 
 export default function Count() {
-    const [carPrice, setCarPrice] = useState('');
     const [rawCarPrice, setRawCarPrice] = useState('');
     const [downPayment, setDownPayment] = useState('');
     const [tenure, setTenure] = useState('');
@@ -21,11 +20,6 @@ export default function Count() {
 
     const handleCarPriceChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         setRawCarPrice(e.target.value);
-    };
-
-    const handleCarPriceBlur = () => {
-        const formattedValue = formatCurrency(rawCarPrice);
-        setCarPrice(formattedValue);
     };
 
     const calculateInstallment = () => {
@@ -73,7 +67,6 @@ export default function Count() {
                             type="number"
                             value={rawCarPrice}
                             onChange={handleCarPriceChange}
-                            onBlur={handleCarPriceBlur}
                             className="flex-1 p-2 border border-gray-300 rounded-md text-gray-900 w-full"
                         />
                         <span className="ml-2 text-white">IDR</span>
