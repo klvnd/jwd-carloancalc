@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 
 const images = [
-    { src: '/assets/img/banner_1.jpg', text: 'Welcome to CalLoanCalc' },
+    { src: '/assets/img/banner_1.jpg', text: 'Welcome to CarLoanCalc' },
     { src: '/assets/img/banner_2.jpg', text: 'Calculate Car Purchase Installments' },
     { src: '/assets/img/banner_3.jpg', text: 'Free and easy to use.' },
 ];

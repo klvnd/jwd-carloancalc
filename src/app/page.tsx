@@ -8,6 +8,7 @@ export default function Home() {
       <section id="home" className="w-full h-screen flex flex-col items-center justify-center p-10">
         <Slider />
       </section>
+
       <section id="about" className="w-full flex flex-col items-center p-10">
         <h1 className="text-3xl font-semibold">About</h1>
         <p className="max-w-2xl text-center mt-10 text-gray-500">
@@ -41,9 +42,11 @@ export default function Home() {
           </li>
         </ul>
       </section>
+
       <section id="count" className="flex justify-center items-center h-screen">
         <Count />
       </section>
+
       <section id="contact" className="w-full flex flex-col items-center justify-center p-10 bg-white">
         <Contact />
       </section>
